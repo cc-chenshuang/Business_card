@@ -2,8 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/a/a",
-    "pages/b/b"
+    "pages/a/a"
   ],
   "window":{
     "backgroundTextStyle":"light",
