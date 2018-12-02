@@ -41,7 +41,7 @@
 }
 /* 名片夹 浏览记录 购买记录 最外层 view */
 .container_bottom{
-  margin-top: 30px
+  margin-top: 60rpx
 }
 /* 名片夹 */
 .card {
@@ -55,7 +55,7 @@
   display: flex;
   flex-direction: row;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20rpx;
   width: 350rpx;
 }
 /* 购买记录 */
@@ -63,21 +63,21 @@
   display: flex;
   flex-direction: row;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20rpx;
   width: 350rpx;
 }
 
 .Arrow_card{
   width: 60rpx;
   height: 60rpx;
-  margin-left: 38px;
-  margin-top: 3px
+  margin-left: 76rpx;
+  margin-top: 6rpx
 }
 .Arrow{
   width: 60rpx;
   height: 60rpx;
-  margin-left: 19px;
-  margin-top: 3px
+  margin-left: 38rpx;
+  margin-top: 6rpx
 }
 /* 名片夹、浏览历史 、购买记录  图标*/
 .icon{
@@ -85,7 +85,7 @@
   height: 80rpx;
 }
 .container_bottom text{
-  margin-left: 10px;
-  margin-top: 5px;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
 }
 
