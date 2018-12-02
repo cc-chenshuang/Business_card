@@ -50,5 +50,8 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+    wx.navigateTo({
+      url: '../Personal_center/Personal_center',
+    })
   }
 })

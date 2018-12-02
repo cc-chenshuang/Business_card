@@ -5,7 +5,12 @@
     "pages/personal_card/personal_card",
     "pages/business_card/business_card",
     "pages/my_shop/my_shop",
-    "pages/message_board/message_board"
+    "pages/message_board/message_board",
+    "pages/Personal_center/Personal_center",
+    "pages/Personal_center/Business_card/Business_card",
+    "pages/Personal_center/Browse_record/Browse_record",
+    "pages/Personal_center/Purchase_record/Purchase_record"
+
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -23,26 +28,26 @@
       {
         "pagePath": "pages/personal_card/personal_card",
         "text": "个人名片",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "image/名片夹.png",
+        "selectedIconPath": "image/名片夹.png"
       },
       {
         "pagePath": "pages/business_card/business_card",
         "text": "企业名片",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "image/名片夹.png",
+        "selectedIconPath": "image/名片夹.png"
       },
       {
         "pagePath": "pages/my_shop/my_shop",
         "text": " 我的商店",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "image/名片夹.png",
+        "selectedIconPath": "image/名片夹.png"
       },
       {
         "pagePath": "pages/message_board/message_board",
         "text": "留言板",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "image/名片夹.png",
+        "selectedIconPath": "image/名片夹.png"
       }
     ]
   }

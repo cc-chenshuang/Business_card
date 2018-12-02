@@ -1,0 +1,38 @@
+<!--  pages/Personal_center/Personal_center.wxml  -->
+<!-- 个人中心 -->
+<!-- class:container = 最外层容器 -->
+<view class='container'>
+  <!-- class:title = 头像+昵称 -->
+  <view class='container_title'>
+    <view class='avatarUrl'>
+      <image src='{{avatarUrl}}'></image>
+    </view>
+    <text class='nickName'>{{nickName}}</text>
+  </view>
+  <!-- class:center = 详细信息 -->
+  <view class='container_center'>
+    <view>姓名：张三</view>
+    <view>性别：男</view>
+    <view>电话：12345678901</view>
+    <view>收货地址：</view>
+    <view>北京市通州区马驹桥景胜中街云泰数通互联网科技有限公司</view>
+  </view>
+  <!-- class:bottom = 名片夹、历史、记录 -->
+  <view class='container_bottom'>
+    <view class='card' catchtap='toBusiness_card'>
+      <image class='icon' src='/image/名片.png' />
+      <text>名片夹</text>
+      <image class='Arrow_card' src='/image/箭头.png' />
+    </view>
+    <view class='Browse_record' catchtap='toBrowse_record'>
+      <image class='icon' src='/image/浏览记录.png' />
+      <text>浏览记录</text>
+      <image class='Arrow' src='/image/箭头.png' />
+    </view>
+    <view class='Purchase_record' catchtap='toPurchase_record'>
+      <image class='icon' src='/image/购买记录.png' />
+      <text>购买记录</text>
+      <image class='Arrow' src='/image/箭头.png' />
+    </view>
+  </view>
+</view>

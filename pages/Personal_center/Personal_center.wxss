@@ -1,0 +1,91 @@
+/* pages/Personal_center/Personal_center.wxss */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 50rpx 0;
+  box-sizing: border-box;
+} 
+/* 顶部 头像、昵称 view */
+.container_title{
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+}
+/* 头像外层 view */
+.avatarUrl{
+  margin: auto;
+}
+/* 头像 */
+.avatarUrl image{
+  width: 250rpx;
+  height: 250rpx;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+}
+/* 昵称 */
+.nickName{
+  margin: auto
+}
+/* 中间 详细信息 */
+.container_center{
+  margin-left: 100rpx;
+  margin-top: 50rpx;
+  margin-right: 100rpx;
+}
+/* 中间 详细信息 */
+.container_center view{
+  margin-bottom: 10rpx;
+}
+/* 名片夹 浏览记录 购买记录 最外层 view */
+.container_bottom{
+  margin-top: 30px
+}
+/* 名片夹 */
+.card {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 350rpx;
+}
+/* 浏览历史 */
+.Browse_record {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 10px;
+  width: 350rpx;
+}
+/* 购买记录 */
+.Purchase_record{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 10px;
+  width: 350rpx;
+}
+
+.Arrow_card{
+  width: 30px;
+  height: 30px;
+  margin-left: 38px;
+  margin-top: 3px
+}
+.Arrow{
+  width: 30px;
+  height: 30px;
+  margin-left: 19px;
+  margin-top: 3px
+}
+/* 名片夹、浏览历史 、购买记录  图标*/
+.icon{
+  width: 40px;
+  height: 40px;
+}
+.container_bottom text{
+  margin-left: 10px;
+  margin-top: 5px;
+}
+

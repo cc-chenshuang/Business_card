@@ -36,12 +36,18 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
+					"id": 1,
+					"name": "个人中心",
+					"pathName": "pages/Personal_center/Personal_center",
+					"query": ""
+				},
+				{
 					"id": -1,
-					"name": "个人简历",
-					"pathName": "pages/personal_card/personal_card"
+					"name": "我的商店",
+					"pathName": "pages/my_shop/my_shop"
 				}
 			]
 		}
