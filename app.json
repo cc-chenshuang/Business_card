@@ -1,8 +1,8 @@
 {
   "pages":[
+    "pages/personal_card/personal_card",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/personal_card/personal_card",
     "pages/business_card/business_card",
     "pages/my_shop/my_shop",
     "pages/message_board/message_board",

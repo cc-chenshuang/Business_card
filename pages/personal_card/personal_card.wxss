@@ -1,1 +1,18 @@
 /* pages/personal_card/personal_card.wxss */
+.comment-detail-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow-y: hidden;
+}
+.core{
+  position: absolute;
+  top: 20rpx;
+  left: -50rpx;
+  overflow-y: hidden;
+  background-color:	#808080;
+  width: 150rpx;
+  border-radius: 50rpx;
+}
