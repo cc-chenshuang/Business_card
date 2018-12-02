@@ -68,21 +68,21 @@
 }
 
 .Arrow_card{
-  width: 30px;
-  height: 30px;
+  width: 60rpx;
+  height: 60rpx;
   margin-left: 38px;
   margin-top: 3px
 }
 .Arrow{
-  width: 30px;
-  height: 30px;
+  width: 60rpx;
+  height: 60rpx;
   margin-left: 19px;
   margin-top: 3px
 }
 /* 名片夹、浏览历史 、购买记录  图标*/
 .icon{
-  width: 40px;
-  height: 40px;
+  width: 80rpx;
+  height: 80rpx;
 }
 .container_bottom text{
   margin-left: 10px;
