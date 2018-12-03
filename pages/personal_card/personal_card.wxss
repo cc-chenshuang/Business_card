@@ -14,5 +14,6 @@
   overflow-y: hidden;
   background-color:	#808080;
   width: 150rpx;
+  height: 50rpx;
   border-radius: 50rpx;
 }

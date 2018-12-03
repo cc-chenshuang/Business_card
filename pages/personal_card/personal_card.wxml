@@ -1,5 +1,5 @@
 <!--pages/personal_card/personal_card.wxml-->
 <view class="comment-detail-box">
 <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543763722574&di=e787a01c8313b1164a830a1514b47a0f&imgtype=0&src=http%3A%2F%2Ffile02.sg560.com%2Fupimg01%2F2015%2F06%2F15%2F1000441090068616752001.jpg'></image>
-<input class='core'></input>
+<image class='core' catchtap='toPersonal_center' src=''></image>
 </view>

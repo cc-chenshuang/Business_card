@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  //跳转到名片夹
+  toPersonal_center: function () {
+    wx.navigateTo({
+      url: '../Personal_center/Personal_center',
+    })
+  },
 })
