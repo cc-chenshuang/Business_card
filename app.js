@@ -1,6 +1,28 @@
 //app.js
 App({
-  onLaunch: function () {
+  onLaunch: function() {
+    // 进入小程序时判断是否授权、如果未授权弹出警告框进行授权
+    //获取用户信息 （头像、昵称）
+    wx.getUserInfo({
+      success(res) { },
+      //获取失败、未授权
+      fail(err) {
+        console.log(err, "获取失败")
+        //弹出模态框跳转到授权页面
+        wx.showModal({
+          title: '警告',
+          content: '尚未进行授权，请点击确定跳转到授权页面进行授权。',
+          success: function (res) {
+            if (res.confirm) {
+              wx.navigateTo({
+                //授权页面路径
+                url: '../index/index',
+              })
+            }
+          }
+        })
+      }
+    })
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())

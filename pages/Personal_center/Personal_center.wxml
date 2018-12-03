@@ -11,11 +11,15 @@
   </view>
   <!-- class:center = 详细信息 -->
   <view class='container_center'>
-    <view>姓名：张三</view>
+    <view>姓名：张三
+    </view>
     <view>性别：男</view>
-    <view>电话：12345678901</view>
-    <view>收货地址：</view>
-    <view>北京市通州区马驹桥景胜中街云泰数通互联网科技有限公司</view>
+    <view>电话：12345678915</view>
+    <view>收货地址：
+    </view>
+    <view>
+      北京市通州区马驹桥景胜中街云泰数通互联网科技有限公司
+    </view>
   </view>
   <!-- class:bottom = 名片夹、历史、记录 -->
   <view class='container_bottom'>

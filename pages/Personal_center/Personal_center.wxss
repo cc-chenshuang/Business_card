@@ -38,6 +38,8 @@
 /* 中间 详细信息 */
 .container_center view{
   margin-bottom: 10rpx;
+  display: flex;
+  flex-direction: row;
 }
 /* 名片夹 浏览记录 购买记录 最外层 view */
 .container_bottom{
